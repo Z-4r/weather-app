@@ -1,12 +1,29 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, intuitive weather application built with ReactJS that provides real-time weather information using the OpenWeather API.
 
-Currently, two official plugins are available:
+# Overview
+This project is a responsive web application that allows users to check current weather conditions and forecasts for any location worldwide. The app features a clean, modern UI built with CSS and ReactJS components, delivering weather data in an easy-to-understand format.
+# Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Location-based Weather: Get weather information for any city or location
+Current Conditions: View temperature, humidity, wind speed, and other current weather metrics
+Forecast View: Check upcoming weather predictions
+Responsive Design: Optimized for both desktop and mobile devices
+Dynamic UI: Weather-dependent visual elements that change based on conditions
 
-## Expanding the ESLint configuration
+# Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ReactJS for frontend development and component architecture
+CSS for custom styling and responsive design
+OpenWeather API for reliable weather data
+Axios for API requests
+React Hooks for state management
+
+# Getting Started
+
+Clone this repository
+Run npm install to install dependencies
+Create a .env file and add your OpenWeather API key as REACT_APP_WEATHER_API_KEY
+Run npm start to launch the development server
+
